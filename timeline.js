@@ -8,7 +8,7 @@
 'use strict';
 
 
-angular.module('destegabry.timeline', []).
+angular.module('destegabry.timeline', [])
 	.directive('timeline', function() {
 
 		var ItemRangePopup = function(data, options) {
