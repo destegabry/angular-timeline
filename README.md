@@ -1,4 +1,4 @@
-angular-loader
+angular-timeline
 ==============
 
 A really simple angular directive to display a loader image while loading ajax resources, raelying on [Almende Timeline](http://almende.github.io/chap-links-library/timeline.html).
