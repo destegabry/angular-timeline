@@ -2,7 +2,7 @@ angular-timeline
 ==============
 
 A really simple angular directive to display a loader image while loading ajax resources, raelying on [Almende Timeline](http://almende.github.io/chap-links-library/timeline.html).
-I've replaced the original range type to display contents on a tooltip when hovering, so you have to rely on Bootstrap tooltips.
+Added the ```range-popup``` item type to display contents on a tooltip when hovering, so you have to rely on Bootstrap tooltips.
 
 Requirements
 ============

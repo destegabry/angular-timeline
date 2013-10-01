@@ -52,7 +52,7 @@ angular.module('destegabry.timeline', [])
       },
       link: function($scope, $element) {
         var timeline = new links.Timeline($element[0]);
-        timeline.addItemType('range', ItemRangePopup);
+        timeline.addItemType('range-popup', ItemRangePopup);
 
         links.events.addListener(timeline, 'select', function() {
           $scope.selection = undefined;
