@@ -1,7 +1,8 @@
 angular-timeline
 ==============
 
-A really simple angular directive to display a loader image while loading ajax resources, raelying on [Almende Timeline](http://almende.github.io/chap-links-library/timeline.html).
+A really simple angular directive to display a loader image while loading ajax resources, relying on [Almende Timeline](http://almende.github.io/chap-links-library/timeline.html).
+
 Added the ```range-popup``` item type to display contents on a tooltip when hovering, so you have to rely on Bootstrap tooltips.
 
 Requirements
@@ -18,6 +19,7 @@ Include Almende Timeline (CSS, JS) and Bootstrap tooltip (CSS, JS) in your `<hea
 
 Usage
 =====
+
 Create a div with the ```timeline``` attribute to instantiate a Timeline. Data must be passed as an array of objects, read the [Almende Timeline documentation on available fields](http://almende.github.io/chap-links-library/js/timeline/doc/#Data_Format).
 ```
 <div timeline="data" 
@@ -31,4 +33,5 @@ The ```timeline-selection``` attribute provides two-way binding on selected/sele
 
 Credits
 =======
+
 Credits to [Almende](http://almende.com) providing the excellent [CHAP Links Library](http://almende.github.io/chap-links-library/)
