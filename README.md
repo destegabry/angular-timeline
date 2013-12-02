@@ -9,7 +9,7 @@ Requirements
 ============
 
 Include Almende Timeline (CSS, JS) and Bootstrap tooltip (CSS, JS) in your `<head>` section:
-```
+```html
 <link rel="stylesheet" href="PATH_TO_STYLES/bootstrap.css">
 <link rel="stylesheet" href="PATH_TO_STYLES/timeline.css">
 
@@ -21,7 +21,7 @@ Usage
 =====
 
 Create a div with the ```timeline``` attribute to instantiate a Timeline. Data must be passed as an array of objects, read the [Almende Timeline documentation on available fields](http://almende.github.io/chap-links-library/js/timeline/doc/#Data_Format).
-```
+```html
 <div timeline="data" 
   	 timeline-options="options"
      timeline-selection="selection"></div>
