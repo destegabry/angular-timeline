@@ -58,18 +58,20 @@ angular.module('destegabry.timeline', [])
           $scope.selection = undefined;
           var sel = timeline.getSelection();
           if (sel[0]) {
+             $scope.$apply(function () {
             $scope.selection = $scope.model[sel[0].row];
+             })
           }
         });
 
         $scope.$watch('model', function(newVal, oldVal) {
           timeline.setData(newVal);
           timeline.setVisibleChartRangeAuto();
-        });
+        },true);
 
         $scope.$watch('options', function(newVal, oldVal) {
           timeline.draw($scope.model, $scope.options);
-        });
+        },true);
 
         $scope.$watch('selection', function(newVal, oldVal) {
           if (!angular.equals(newVal, oldVal)) {
